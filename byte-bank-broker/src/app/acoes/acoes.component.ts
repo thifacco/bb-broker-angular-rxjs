@@ -32,6 +32,7 @@ export class AcoesComponent implements OnInit, OnDestroy {
 
 
   // Exemplo 2: 
-  // Utilizando o pipe async no template
+  // Utilizando o pipe async do Angular no template
+  // Com o pipe async é desnecessário utilizar os métodos subscribe e unsubscribe dos observables
   acoes$ = this.acoesService.getAcoes();
 }
